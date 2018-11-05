@@ -65,6 +65,7 @@ p {
 
 .btn-big {
   display: inline-block;
+  margin-top: .3em;
 }
 
 .btn:hover {
