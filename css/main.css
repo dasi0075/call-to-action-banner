@@ -20,12 +20,14 @@ body {
   top: 12rem;
   width: 100%;
   max-width: 45em;
-  indent: 20%;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .banner {
   max-height: 500px;
   position: relative;
+  overflow: hidden;
 }
 
 h2 {
@@ -41,9 +43,10 @@ p {
 
 .img-flex {
   width: 100%;
+  display: inline;
 }
 
-.btn {
+.text {
  margin-left: 1rem;
 }
 
@@ -57,6 +60,10 @@ p {
   border-radius: 8px;
   padding: .6em;
   background-color: #333;
+}
+
+.btn:hover {
+  background-color: #000;
 }
 
 .logo {
