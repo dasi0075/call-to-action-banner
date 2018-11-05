@@ -33,7 +33,7 @@ body {
 h2 {
   font-size: 3rem;
   font-family: Roboto Condensed;
-  font-weight: bold;
+  font-weight: 700;
   margin: 0;
   line-height: 1.2;
 }
@@ -50,6 +50,7 @@ p {
 
 .text {
   margin-left: 1rem;
+  width: 60%;
 }
 
 .btn {
@@ -74,4 +75,5 @@ p {
 
 .logo {
   margin-left: 1rem;
+  width: 40%;
 }
